@@ -1,8 +1,9 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
-  *main - Entry point
-  *Return: always  0 (Success)
-  */
+* main - Entry point
+*
+* Return: always  0 (Success)
+*/
 int main(void)
 {
         printf("Size of char: %d byte(s)", sizeof(char));
@@ -12,4 +13,3 @@ int main(void)
         printf("Size of float %d byte(s)", sizeof(float));
         return (0);
 }
-
