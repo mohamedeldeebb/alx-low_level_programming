@@ -2,7 +2,7 @@
 
 #include <time.h>
 
-#include <stadio.h>
+#include <stdio.h>
 
 /**
  * main - prints if numbers positive, zero or negative
@@ -12,7 +12,7 @@
 int main(void)
 {
 	int n;
-	start(time(0));
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
@@ -20,11 +20,11 @@ int main(void)
 	}
 	else if ( n == 0)
 	{
-		printf("%d is zero\n , n");
+		printf("%d is zero\n" , n);
 	}
 	else
 	{
-		printf("%d is negative\n");
+		printf("%d is negative\n" , n);
 	}
 	return (0);
 }
